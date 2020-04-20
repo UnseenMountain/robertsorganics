@@ -14,7 +14,7 @@ function NavBar (props) {
         <Navbar.Brand href="#home">Robert's Organics</Navbar.Brand>
         <Nav className="mr-auto">
           <Nav.Link href="#home">Blog</Nav.Link>
-          <Nav.Link href="#features">Store</Nav.Link>
+          <Nav.Link href="/components/Store">Store</Nav.Link>
           <Nav.Link href="#pricing">Home</Nav.Link>
         </Nav>
         <Form inline>
