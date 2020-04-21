@@ -12,17 +12,17 @@ function Blog() {
                         Roberts Organics
                     </h1>
                 </div>
-                    
-                        <li>
-                            sample text
+
+                <li>
+                    sample text
                         </li>
-                   
+
                 <Form.Group>
                     <Form.Control size="lg" type="text" placeholder="Large text" />
                     <Button><h6>Submit</h6></Button>
                 </Form.Group>
             </Container>
-            
+
 
         </div>
     );

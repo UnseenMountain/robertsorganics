@@ -1,7 +1,8 @@
 import React from 'react';
 import {useState } from "react"
-import { Navbar, Nav, Form, FormControl, Button } from "react-bootstrap"
+import { Navbar, Nav, Form, Button } from "react-bootstrap"
 import Modal from 'react-bootstrap/Modal'
+import {Link} from "react-router-dom"
 
 
 function NavBar (props) {
@@ -11,11 +12,11 @@ function NavBar (props) {
   const handleShow = () => setShow(true);
     return(
         <Navbar bg="dark" variant="dark">
-        <Navbar.Brand href="#home">Robert's Organics</Navbar.Brand>
+        <Navbar.Brand href="/">Robert's Organics</Navbar.Brand>
         <Nav className="mr-auto">
-          <Nav.Link href="#home">Blog</Nav.Link>
-          <Nav.Link href="/components/Store">Store</Nav.Link>
-          <Nav.Link href="#pricing">Home</Nav.Link>
+          <Nav.Link href="/Blog">Blog</Nav.Link>
+          <Nav.Link href="/Store">Store</Nav.Link>
+          <Nav.Link href="/">Home</Nav.Link>
         </Nav>
         <Form inline>
          

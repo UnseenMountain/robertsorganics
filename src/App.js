@@ -1,8 +1,9 @@
 import React from 'react';
-import { BrowserRouter as Router } from "react-router-dom";
+import { BrowserRouter as Router,  Route } from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import NavBar from "./components/NavBar/NavBar"
+import Home from "./components/Home/Home" 
 import Blog from "./components/Blog/Blog"
 import Store from "./components/Store/Store"
 import Footer from "./components/Footer/Footer.js"
@@ -10,15 +11,17 @@ import Footer from "./components/Footer/Footer.js"
 
 function App() {
   return (
-   <Router>
-    <div>
-<NavBar/>
+    <Router>
+      <div>
 
-<Blog/>
-   <Store/>
-   <Footer/>  
-    </div>
-   </Router>
+        <NavBar />
+        <Route path="/" exact component={Home}/>
+        <Route path="/Blog" component={Blog}/>
+        <Route path="/Store" component={Store}/>
+      
+        <Footer />
+      </div>
+    </Router>
   );
 }
 
