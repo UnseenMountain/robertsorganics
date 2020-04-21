@@ -2,10 +2,10 @@ import React from 'react';
 import {useState } from "react"
 import { Navbar, Nav, Form, Button } from "react-bootstrap"
 import Modal from 'react-bootstrap/Modal'
-import {Link} from "react-router-dom"
 
 
-function NavBar (props) {
+
+function NavBar () {
     const [show, setShow] = useState(false);
 
   const handleClose = () => setShow(false);
@@ -26,7 +26,7 @@ function NavBar (props) {
 
       <Modal show={show} onHide={handleClose}>
         <Modal.Header closeButton>
-          <Modal.Title>Modal heading</Modal.Title>
+          <Modal.Title>Sign in</Modal.Title>
         </Modal.Header>
         <Modal.Body><Form>
   <Form.Group controlId="formBasicEmail">
