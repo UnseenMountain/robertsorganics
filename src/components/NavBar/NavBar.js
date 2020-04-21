@@ -2,10 +2,10 @@ import React from 'react';
 import {useState } from "react"
 import { Navbar, Nav, Form, Button } from "react-bootstrap"
 import Modal from 'react-bootstrap/Modal'
+import {Link} from "react-router-dom"
 
 
-
-function NavBar () {
+function NavBar (props) {
     const [show, setShow] = useState(false);
 
   const handleClose = () => setShow(false);
@@ -14,7 +14,7 @@ function NavBar () {
         <Navbar bg="dark" variant="dark">
         <Navbar.Brand href="/">Robert's Organics</Navbar.Brand>
         <Nav className="mr-auto">
-          <Nav.Link href="/Blog">Blog</Nav.Link>
+          <Link to="/Blog">Blog</Link>
           <Nav.Link href="/Store">Store</Nav.Link>
           <Nav.Link href="/">Home</Nav.Link>
         </Nav>
