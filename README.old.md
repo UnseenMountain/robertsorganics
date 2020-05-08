@@ -29,3 +29,9 @@ companie name and logo
 allow only the prevaior of the site to post things. 
 
 # store
+
+
+
+# notes
+
+Home page 
