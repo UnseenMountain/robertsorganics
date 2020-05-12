@@ -15,12 +15,21 @@ function NavBar(props) {
       <Navbar.Brand href="/">Robert's Organics</Navbar.Brand>
       <Nav className="mr-auto">
         <div className="links">
-          <Link to="/Blog">Blog</Link>
-          <Link to="/Store">Store</Link>
-          <Link to="/Recipes">Recipes</Link>
-          <Link to="/">Home</Link>
+          <Link to="/"> <Button variant="info">Home</Button> </Link>
+          <Link to="/Store"><Button variant="info"> Store</Button> </Link>
+          <Link to="/Blog"> <Button variant="info"> Blog </Button> </Link>
+          <Link to="/Recipes"><Button variant="info"> Recipes</Button> </Link>
         </div>
       </Nav>
+
+      <div>
+
+
+        <Link to="/cart"><Button variant="info">My cart</Button></Link>
+
+
+      </div>
+
       <Form inline>
 
         <Button variant="primary" onClick={handleShow}>

@@ -10,6 +10,7 @@ import Store from "./components/Store/Store"
 import Footer from "./components/Footer/Footer.js"
 
 
+
 function App() {
   return (
     <Router>
@@ -17,6 +18,7 @@ function App() {
 
         <NavBar />
         <Route path="/" exact component={Home}/>
+       
         <Route path="/Blog" component={Blog}/>
         <Route path="/Recipes" component={Recipes}/>
         <Route path="/Store" component={Store}/>
