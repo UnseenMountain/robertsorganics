@@ -1,5 +1,5 @@
 import React from 'react';
-
+import Fade from 'react-reveal/Fade';
 
 import { Container, Card, CardGroup, Image, Button } from "react-bootstrap"
 import "./style.css"
@@ -21,44 +21,51 @@ function Home() {
       {/* <div className="container"> */}
       <div className="imageContainer">
         <div className="centered">
-        <div class="image">
-          
-          <CardGroup>
-            <Card>
-              <Card.Img height="350" variant="top" src="https://grist.files.wordpress.com/2015/11/organic.jpg" />
-              <Link to="/Store">
-                
-                  <h2>Shop all</h2>
-               
-              </Link>
-           
-            </Card>
+          <div class="image">
+            <Fade left cascade>
+              <CardGroup>
+                <Card>
+                  <Card.Img height="350" variant="top" src="https://grist.files.wordpress.com/2015/11/organic.jpg" />
+                  <Link to="/Store">
+                    
+                      <h2>
+                        <Button variant="dark" size="lg">
+                          Shop all
+                        </Button>
+                      </h2>
+                    
+                  </Link>
+                </Card>
 
-            <Card>
-              <Card.Img height="350" variant="top" src="https://cdn-a.william-reed.com/var/wrbm_gb_food_pharma/storage/images/4/9/6/6/4116694-3-eng-GB/EU-launches-electronic-tracking-system-for-organic-imports_wrbm_large.jpg" />
-              <Link to="/Recipes">
-               
-                  <h2>Recipes</h2>
-               
-                
-              </Link>
-            </Card>
+                <Card>
+                  <Card.Img height="350" variant="top" src="https://cdn-a.william-reed.com/var/wrbm_gb_food_pharma/storage/images/4/9/6/6/4116694-3-eng-GB/EU-launches-electronic-tracking-system-for-organic-imports_wrbm_large.jpg" />
+                  <Link to="/Recipes">
 
-            <Card>
-              <Image height="350" variant="top" src="https://www.moneycrashers.com/wp-content/uploads/2012/01/how-to-eat-organic-on-a-budget-1068x713.jpg" >
-              </Image>
-             
-                <h2>Seeds</h2>
-             
-             
-            </Card>
+                    <h2>
+                      <Button variant="dark" size="lg">
+                        Recipes
+                    </Button>
+                    </h2>
 
+                  </Link>
+                </Card>
 
-          </CardGroup>
-        </div>
+                <Card>
+                  <Image height="350" variant="top" src="https://www.moneycrashers.com/wp-content/uploads/2012/01/how-to-eat-organic-on-a-budget-1068x713.jpg" >
+                  </Image>
+                  <h2>
+                    <Button variant="dark" size="lg">
+                      Seeds
+                  </Button>
+                  </h2>
+                </Card>
+
+              </CardGroup>
+            </Fade>
+          </div>
         </div>
       </div>
-
+      {/* </div> */}
 
 
 
