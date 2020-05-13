@@ -1,7 +1,7 @@
 .back{
-    background-color: #BD3701;
+    
     text-align: center;
-    font-family: fantasy;
+    font-family: monospace;
 }
 
  /* .container{ 
@@ -9,11 +9,6 @@
 } */
 
  .imageContainer { 
-    
-    text-align: center;
-    
-    
-   
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   transition: 0.3s;
   
@@ -30,3 +25,7 @@ h2 {
     padding-top: 80px;
 }  */
 
+.card{
+    
+    font-size: larger;
+}

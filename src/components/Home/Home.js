@@ -9,12 +9,12 @@ import { Link } from "react-router-dom"
 function Home() {
 
   return (
+    <div>
     <div className="back">
       <Container>
         <h1> Welcome to Roberts Organics</h1>
       </Container>
-      <h5>We are a organic food retail bussiness. </h5>
-      <h5>We are dedicated To providing 100% organic food and seed packets to our coustomers.</h5>
+     
 
 
 
@@ -27,13 +27,13 @@ function Home() {
                 <Card>
                   <Card.Img height="350" variant="top" src="https://grist.files.wordpress.com/2015/11/organic.jpg" />
                   <Link to="/Store">
-                    
-                      <h2>
-                        <Button variant="dark" size="lg">
-                          Shop all
+
+                    <h2>
+                      <Button variant="dark" size="lg">
+                        Shop all
                         </Button>
-                      </h2>
-                    
+                    </h2>
+
                   </Link>
                 </Card>
 
@@ -53,11 +53,25 @@ function Home() {
                 <Card>
                   <Image height="350" variant="top" src="https://www.moneycrashers.com/wp-content/uploads/2012/01/how-to-eat-organic-on-a-budget-1068x713.jpg" >
                   </Image>
+                  <Link to="/Recipes">
                   <h2>
                     <Button variant="dark" size="lg">
                       Seeds
                   </Button>
                   </h2>
+                  </Link>
+                </Card>
+
+                <Card>
+                  <Image height="350" variant="top" src="https://cdn-a.william-reed.com/var/wrbm_gb_food_pharma/storage/images/publications/food-beverage-nutrition/foodnavigator.com/article/2020/01/30/unveiling-gluten-free-misperceptions-don-t-assume-gluten-free-products-are-healthy-by-default/10652633-1-eng-GB/Unveiling-gluten-free-misperceptions-Don-t-assume-gluten-free-products-are-healthy-by-default_wrbm_large.jpg" >
+                  </Image>
+                  <Link to="/Recipes">
+                  <h2>
+                    <Button variant="dark" size="lg">
+                      Gluten free
+                  </Button>
+                  </h2>
+                  </Link>
                 </Card>
 
               </CardGroup>
@@ -65,13 +79,25 @@ function Home() {
           </div>
         </div>
       </div>
-      {/* </div> */}
+      </div>
 
 
+      <Card>
+    <Card.Img width="600" height="600" variant="top" src="https://www.greenqueen.com.hk/wp-content/uploads/2020/02/organic-food-getty-images.jpg" />
+    <Card.Body>
+      <Card.Text>
+        <div className="card">
+     Our Mission statment:  <h5>We are a organic retail business. </h5>
+      <h5>We are dedicated To providing 100% organic food and seed packets to our coustomers.</h5>
+        </div>
+      </Card.Text>
+    </Card.Body>
+  </Card>
+     
+      
 
-
-      <Container>
-
+        <Fade right cascade>
+          
         <Carousel>
           <Carousel.Item bg="light" variant="light">
             <img
@@ -148,9 +174,9 @@ It's also claimed to improve energy and stamina.</p>
               </Card>
             </Carousel.Caption>
           </Carousel.Item>
-
         </Carousel>
-      </Container>
+    </Fade>
+     
 
 
 
