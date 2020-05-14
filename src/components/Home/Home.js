@@ -63,7 +63,7 @@ function Home() {
                 </Card>
 
                 <Card>
-                  <Image height="350" variant="top" src="https://cdn-a.william-reed.com/var/wrbm_gb_food_pharma/storage/images/publications/food-beverage-nutrition/foodnavigator.com/article/2020/01/30/unveiling-gluten-free-misperceptions-don-t-assume-gluten-free-products-are-healthy-by-default/10652633-1-eng-GB/Unveiling-gluten-free-misperceptions-Don-t-assume-gluten-free-products-are-healthy-by-default_wrbm_large.jpg" >
+                  <Image height="350" variant="top" src="https://cdn-a.william-reed.com/var/wrbm_gb_food_pharma/storage/images/publications/food-beverage-nutrition/bakeryandsnacks.com/article/2019/09/26/study-debunks-myth-that-lifestylers-benefit-from-going-gluten-free/10184053-1-eng-GB/Study-debunks-myth-that-lifestylers-benefit-from-going-gluten-free_wrbm_large.jpg" >
                   </Image>
                   <Link to="/Recipes">
                   <h2>
@@ -79,9 +79,10 @@ function Home() {
           </div>
         </div>
       </div>
-      </div>
 
 
+
+<Container>
       <Card>
     <Card.Img width="600" height="600" variant="top" src="https://www.greenqueen.com.hk/wp-content/uploads/2020/02/organic-food-getty-images.jpg" />
     <Card.Body>
@@ -106,8 +107,8 @@ function Home() {
               alt="First slide"
               height="600"
               width="200"
-
-            />
+              
+              />
             <Carousel.Caption>
               <Card className="bg-dark text-white">
                 <h3> Quinoa</h3>
@@ -122,7 +123,7 @@ function Home() {
               alt="Third slide"
               height="600"
               width="200"
-            />
+              />
 
             <Carousel.Caption>
               <Card className="bg-dark text-white">
@@ -140,7 +141,7 @@ function Home() {
               alt="Third slide"
               height="600"
               width="200"
-            />
+              />
 
             <Carousel.Caption>
               <Card className="bg-dark text-white">
@@ -165,7 +166,7 @@ It's also claimed to improve energy and stamina.</p>
               alt="Third slide"
               height="600"
               width="200"
-            />
+              />
 
             <Carousel.Caption>
               <Card className="bg-dark text-white">
@@ -180,7 +181,9 @@ It's also claimed to improve energy and stamina.</p>
 
 
 
+              </Container>
     </div>
+              </div>
   )
 }
 export default Home

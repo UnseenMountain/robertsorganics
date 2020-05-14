@@ -1,9 +1,12 @@
 import React from "react"
 import Carousel from 'react-bootstrap/Carousel'
+import { Container} from "react-bootstrap"
 import Card from 'react-bootstrap/Card'
 function Store () {
     return(
         <div>
+          <Container>
+
             <Carousel>
   <Carousel.Item bg="light" variant="light">
     <img
@@ -13,7 +16,7 @@ function Store () {
       height="600"
       width="200"
       
-    />
+      />
     <Carousel.Caption>
     <Card className="bg-dark text-white">
       <h3> Quinoa</h3>
@@ -46,7 +49,7 @@ function Store () {
       alt="Third slide"
       height="600"
       width="200"
-    />
+      />
 
     <Carousel.Caption>
     <Card className="bg-dark text-white">
@@ -82,6 +85,7 @@ It's also claimed to improve energy and stamina.</p>
   </Carousel.Item>
 
 </Carousel>
+      </Container>
         </div>
     )
 }
