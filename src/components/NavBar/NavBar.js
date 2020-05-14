@@ -11,7 +11,6 @@ function NavBar(props) {
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
   return (
-      
 
     <Navbar collapseOnSelect expand="lg" bg="light" variant="light"  >
       <Navbar.Brand href="/">Robert's Organics</Navbar.Brand>
