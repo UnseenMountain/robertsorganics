@@ -9,7 +9,7 @@ function Recipes () {
 
             <CardGroup>
   <Card>
-    <Card.Img  variant="top" src="https://theloopywhisk.com/wp-content/uploads/2018/10/The-Ultimate-Gluten-Free-Chocolate-Cake_730px-featured.jpg" />
+    <Card.Img height="250"  variant="top" src="https://theloopywhisk.com/wp-content/uploads/2018/10/The-Ultimate-Gluten-Free-Chocolate-Cake_730px-featured.jpg" />
     <Card.ImgOverlay>
       <h2>Gluten free</h2>
     </Card.ImgOverlay>
