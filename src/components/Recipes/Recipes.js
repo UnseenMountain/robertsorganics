@@ -1,11 +1,17 @@
 import React from "react"
 import Card from 'react-bootstrap/Card'
-import {CardGroup} from "react-bootstrap"
+import {CardGroup, Container} from "react-bootstrap"
+import "./style.css"
+
+
 function Recipes () {
     return(
         <div>
-            <h1>Recipes</h1>
             <h1><iframe width="560" height="315" src="https://www.youtube.com/embed/EMZkTLy7tvc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in.-picture" allowfullscreen></iframe></h1>
+<Container>
+  <div className="Card">
+
+            <h1>Recipes</h1>
 
             <CardGroup>
   <Card>
@@ -59,6 +65,9 @@ function Recipes () {
    
   </Card>
 </CardGroup>
+  </div>
+</Container>
+
         </div>
     )
 }

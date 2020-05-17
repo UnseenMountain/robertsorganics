@@ -84,7 +84,7 @@ function Home() {
 
 <Container>
       <Card>
-    <Card.Img width="600" height="600" variant="top" src="https://www.greenqueen.com.hk/wp-content/uploads/2020/02/organic-food-getty-images.jpg" />
+    <Card.Img width="600" height="200" variant="top" src="https://www.greenqueen.com.hk/wp-content/uploads/2020/02/organic-food-getty-images.jpg" />
     <Card.Body>
       <Card.Text>
         <div className="card">
@@ -105,7 +105,7 @@ function Home() {
               className="d-block w-100"
               src="https://media2.s-nbcnews.com/j/streams/2014/August/140807/1D274906523533-today-couscous-140804.fit-760w.jpg"
               alt="First slide"
-              height="600"
+              height="400"
               width="200"
               
               />
@@ -121,7 +121,7 @@ function Home() {
               className="d-block w-100"
               src="https://www.edenbrothers.com/store/media/Seeds-Mixes/SVCOX112.jpg"
               alt="Third slide"
-              height="600"
+              height="400"
               width="200"
               />
 
@@ -139,7 +139,7 @@ function Home() {
               className="d-block w-100"
               src="https://cdn.shopify.com/s/files/1/0249/0045/products/maca-root_2048x.jpg?v=1388738446"
               alt="Third slide"
-              height="600"
+              height="400"
               width="200"
               />
 
@@ -164,7 +164,7 @@ It's also claimed to improve energy and stamina.</p>
               className="d-block w-100"
               src="https://thepioneerwoman.com/wp-content/uploads/2017/04/chia-seeds-101-06.jpg?fit=2000%2C1335"
               alt="Third slide"
-              height="600"
+              height="400"
               width="200"
               />
 
