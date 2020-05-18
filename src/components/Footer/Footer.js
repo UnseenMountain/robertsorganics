@@ -18,7 +18,7 @@ function Footer() {
                                 
                                 <h6>robert@organics.com</h6>
                                 <h6>Phone Number: 805-296-9158</h6>
-                                <h6>Paso Robles CA 93446</h6>
+                                <h6>Templeton CA 93465</h6>
 
                             </Col>
                             <Col> 

@@ -48,7 +48,7 @@ function Store() {
               src="https://cdn.shopify.com/s/files/1/0249/0045/products/maca-root_2048x.jpg?v=1388738446"
               alt="Third slide"
               height="600"
-              width="200"
+              width="2w00"
             />
 
             <Carousel.Caption>
