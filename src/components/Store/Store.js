@@ -48,7 +48,7 @@ function Store() {
               src="https://cdn.shopify.com/s/files/1/0249/0045/products/maca-root_2048x.jpg?v=1388738446"
               alt="Third slide"
               height="600"
-              width="2w00"
+              width="200"
             />
 
             <Carousel.Caption>
@@ -58,7 +58,7 @@ function Store() {
 
                 Maca root has traditionally been used to enhance fertility and sex drive.
 
-It's also claimed to improve energy and stamina.</p>
+                It's also claimed to improve energy and stamina.</p>
               </Card>
             </Carousel.Caption>
           </Carousel.Item>
@@ -89,7 +89,7 @@ It's also claimed to improve energy and stamina.</p>
 
       <CardDeck>
         <Card>
-          <Card.Img variant="top" src="https://media2.s-nbcnews.com/j/streams/2014/August/140807/1D274906523533-today-couscous-140804.fit-760w.jpg" />
+          <Card.Img height="300" variant="top" src="https://media2.s-nbcnews.com/j/streams/2014/August/140807/1D274906523533-today-couscous-140804.fit-760w.jpg" />
           <Card.Body>
             <Card.Title>Quinoa</Card.Title>
             <Card.Text>
@@ -110,7 +110,7 @@ It's also claimed to improve energy and stamina.</p>
           </Card.Body>
         </Card>
         <Card>
-          <Card.Img variant="top" src="https://www.featurepics.com/StockImage/20080809/watermelon-seeds-stock-picture-847847.jpg" />
+          <Card.Img height="320" variant="top" src="https://www.featurepics.com/StockImage/20080809/watermelon-seeds-stock-picture-847847.jpg" />
           <Card.Body>
             <Card.Title>Watermellon seeds</Card.Title>
             <Card.Text>

@@ -1,14 +1,47 @@
-import React from 'react';
+import React   from 'react';
+import { useState } from "react"
 import Fade from 'react-reveal/Fade';
-
-import { Container, Card, CardGroup, Image, Button } from "react-bootstrap"
+import Modal from 'react-bootstrap/Modal'
+import { Container, Card, CardGroup, Image, Button, InputGroup, FormControl } from "react-bootstrap"
 import "./style.css"
-import Carousel from 'react-bootstrap/Carousel'
+
 import { Link } from "react-router-dom"
 
 function Home() {
+  const [show, setShow] = useState(true);
+
+  const handleClose = () => setShow(false);
+  const handleShow = () => setShow(true);
 
   return (
+<div>
+
+    
+
+      <Modal show={show} onHide={handleClose}>
+        <Modal.Header closeButton>
+          <Modal.Title>Organic Newsletter no paper needed.</Modal.Title>
+        </Modal.Header>
+        <h4>Sign up for our newslatter</h4>
+        <Modal.Body>  <InputGroup className="mb-3">
+    <InputGroup.Prepend>
+      <InputGroup.Text id="basic-addon1">@</InputGroup.Text>
+    </InputGroup.Prepend>
+    <FormControl
+      placeholder="Username"
+      aria-label="Username"
+      aria-describedby="basic-addon1"
+    />
+  </InputGroup></Modal.Body>
+        <Modal.Footer>
+          <Button variant="secondary" onClick={handleClose}>
+            Close
+          </Button>
+          <Button variant="primary" onClick={handleClose}>
+            Sign up
+          </Button>
+        </Modal.Footer>
+      </Modal>
     <div>
     <div className="back">
       <Container>
@@ -172,6 +205,7 @@ It's also claimed to improve energy and stamina.</p>
 
               </Container>
     </div>
+              </div>
               </div>
   )
 }
