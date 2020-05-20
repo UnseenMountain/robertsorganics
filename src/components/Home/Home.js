@@ -33,6 +33,13 @@ function Home() {
       aria-describedby="basic-addon1"
     />
   </InputGroup></Modal.Body>
+  <InputGroup className="mb-3">
+  <InputGroup.Prepend>
+    <InputGroup.Text>First and last name</InputGroup.Text>
+  </InputGroup.Prepend>
+  <FormControl />
+  
+</InputGroup>
         <Modal.Footer>
           <Button variant="secondary" onClick={handleClose}>
             Close
