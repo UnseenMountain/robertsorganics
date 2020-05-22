@@ -11,7 +11,7 @@ function Home() {
   const [show, setShow] = useState(true);
 
   const handleClose = () => setShow(false);
-  const handleShow = () => setShow(true);
+  
 
   return (
 <div>
@@ -62,29 +62,18 @@ function Home() {
       <div className="imageContainer">
         <div className="centered">
           <div class="image">
+
             <Fade left cascade>
+            <Container>
               <CardGroup>
                 <Card>
-                  <Card.Img height="350" variant="top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSVztIv2_-Ex4oGD9O7hRGmvLwtBd9CdFzU8hsz2u1__PDxl9Qa&usqp=CAU" />
+                  <Card.Img height="350" variant="top" src="https://cdn-a.william-reed.com/var/wrbm_gb_food_pharma/storage/images/4/9/6/6/4116694-3-eng-GB/EU-launches-electronic-tracking-system-for-organic-imports_wrbm_large.jpg" />
                   <Link to="/Store">
 
                     <h2>
                       <Button variant="dark" size="lg">
                         Shop all
                         </Button>
-                    </h2>
-
-                  </Link>
-                </Card>
-
-                <Card>
-                  <Card.Img height="350" variant="top" src="https://cdn-a.william-reed.com/var/wrbm_gb_food_pharma/storage/images/4/9/6/6/4116694-3-eng-GB/EU-launches-electronic-tracking-system-for-organic-imports_wrbm_large.jpg" />
-                  <Link to="/Recipes">
-
-                    <h2>
-                      <Button variant="dark" size="lg">
-                        Recipes
-                    </Button>
                     </h2>
 
                   </Link>
@@ -101,6 +90,19 @@ function Home() {
                   </h2>
                   </Link>
                 </Card>
+                <Card>
+                  <Card.Img height="350" variant="top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSVztIv2_-Ex4oGD9O7hRGmvLwtBd9CdFzU8hsz2u1__PDxl9Qa&usqp=CAU" />
+                  <Link to="/Recipes">
+
+                    <h2>
+                      <Button variant="dark" size="lg">
+                        Recipes
+                    </Button>
+                    </h2>
+
+                  </Link>
+                </Card>
+
 
                 <Card>
                   <Image height="350" variant="top" src="https://cdn-a.william-reed.com/var/wrbm_gb_food_pharma/storage/images/publications/food-beverage-nutrition/bakeryandsnacks.com/article/2019/09/26/study-debunks-myth-that-lifestylers-benefit-from-going-gluten-free/10184053-1-eng-GB/Study-debunks-myth-that-lifestylers-benefit-from-going-gluten-free_wrbm_large.jpg" >
@@ -115,6 +117,7 @@ function Home() {
                 </Card>
 
               </CardGroup>
+            </Container>
             </Fade>
           </div>
         </div>
@@ -144,8 +147,8 @@ function Home() {
               className="d-block w-100"
               src="https://media2.s-nbcnews.com/j/streams/2014/August/140807/1D274906523533-today-couscous-140804.fit-760w.jpg"
               alt="First slide"
-              height="400"
-              width="200"
+              height="460"
+             
               
               />
            
@@ -158,8 +161,8 @@ function Home() {
               className="d-block w-100"
               src="https://www.edenbrothers.com/store/media/Seeds-Mixes/SVCOX112.jpg"
               alt="Third slide"
-              height="500"
-              width="200"
+              height="450"
+              
               />
 
           
@@ -173,7 +176,7 @@ function Home() {
               src="https://cdn.shopify.com/s/files/1/0249/0045/products/maca-root_2048x.jpg?v=1388738446"
               alt="Third slide"
               height="450"
-              width="200"
+              
               />
 
           
@@ -195,8 +198,8 @@ It's also claimed to improve energy and stamina.</p>
               className="d-block w-100"
               src="https://thepioneerwoman.com/wp-content/uploads/2017/04/chia-seeds-101-06.jpg?fit=2000%2C1335"
               alt="Third slide"
-              height="450"
-              width="200"
+              height="600"
+              
               />
 
            
