@@ -25,14 +25,14 @@ function NavBar(props) {
 
         <Form inline>
           <div className="links">
-            <a className="space" href="/"> Home </a>
-            <a className="space" href="/Store"> Store </a>
-            <a className="space"  href="/Blog">  Blog  </a>
-            <a className="space" href="/Recipes"> Recipes </a>
+            <Navbar.Brand className="space" href="/"> Home </Navbar.Brand>
+            <Navbar.Brand className="space" href="/Store"> Store </Navbar.Brand>
+            <Navbar.Brand className="space"  href="/Blog">  Blog  </Navbar.Brand>
+            <Navbar.Brand className="space" href="/Recipes"> Recipes </Navbar.Brand>
 
 
 
-        <a className="space" href="/cart">My cart</a>
+        <Navbar.Brand className="space" href="/cart">My cart</Navbar.Brand>
           </div>
 
           <Button variant="primary" onClick={handleShow}>
