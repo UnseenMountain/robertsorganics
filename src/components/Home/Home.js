@@ -57,7 +57,7 @@ function Home() {
           <Fade left cascade>
             <CardGroup>
               <Card>
-                <Card.Img height="350" variant="top" src="https://cdn-a.william-reed.com/var/wrbm_gb_food_pharma/storage/images/4/9/6/6/4116694-3-eng-GB/EU-launches-electronic-tracking-system-for-organic-imports_wrbm_large.jpg" />
+                <Image height="350" variant="top" src="https://cdn-a.william-reed.com/var/wrbm_gb_food_pharma/storage/images/4/9/6/6/4116694-3-eng-GB/EU-launches-electronic-tracking-system-for-organic-imports_wrbm_large.jpg" roundedCircle/>
                 <Card.Body>
                   <Card.Text>
                     <Link to="/Store">
@@ -73,7 +73,7 @@ function Home() {
 
 
               <Card>
-                <Image height="350" variant="top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSRmo-KkcVbyUsSTWu9lUx5oNoNMKfmH2-WwJPhF1Iy6X0eby1R&usqp=CAU" />
+                <Image height="350" variant="top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSRmo-KkcVbyUsSTWu9lUx5oNoNMKfmH2-WwJPhF1Iy6X0eby1R&usqp=CAU" roundedCircle/>
                 <Card.Body>
                   <Card.Text>
                     <Link to="/Recipes">
@@ -89,7 +89,7 @@ function Home() {
 
 
               <Card>
-                <Card.Img height="350" variant="top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSVztIv2_-Ex4oGD9O7hRGmvLwtBd9CdFzU8hsz2u1__PDxl9Qa&usqp=CAU" />
+                <Image height="350" variant="top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSVztIv2_-Ex4oGD9O7hRGmvLwtBd9CdFzU8hsz2u1__PDxl9Qa&usqp=CAU"  roundedCircle />
                 <Card.Body>
                   <Card.Text>
                     <Link to="/Recipes">
@@ -104,7 +104,7 @@ function Home() {
 
               </Card>
               <Card>
-                <Card.Img height="350" variant="top" src="https://cdn-a.william-reed.com/var/wrbm_gb_food_pharma/storage/images/publications/food-beverage-nutrition/bakeryandsnacks.com/article/2019/09/26/study-debunks-myth-that-lifestylers-benefit-from-going-gluten-free/10184053-1-eng-GB/Study-debunks-myth-that-lifestylers-benefit-from-going-gluten-free_wrbm_large.jpg" />
+                <Image height="350" variant="top" src="https://cdn-a.william-reed.com/var/wrbm_gb_food_pharma/storage/images/publications/food-beverage-nutrition/bakeryandsnacks.com/article/2019/09/26/study-debunks-myth-that-lifestylers-benefit-from-going-gluten-free/10184053-1-eng-GB/Study-debunks-myth-that-lifestylers-benefit-from-going-gluten-free_wrbm_large.jpg" roundedCircle/>
                 <Card.Body>
 
                   <Card.Text>
@@ -154,7 +154,7 @@ function Home() {
                 className="d-block w-100"
                 src="https://opimedia.azureedge.net/-/media/images/men/editorial/articles/magazine-articles/2011/12-01/best-vegetable-seed-companies/men-dj11-seed-companies-2.jpg"
                 alt="Third slide"
-                height="450"
+                height="500"
 
               />
 
@@ -163,19 +163,7 @@ function Home() {
                 <h3>Organic Seeds</h3>
                 <p>Grow your own plants in your backyard.</p>
               </Card>
-              <img
-                className="d-block w-100"
-                src="https://media2.s-nbcnews.com/j/streams/2014/August/140807/1D274906523533-today-couscous-140804.fit-760w.jpg"
-                alt="First slide"
-                height="460"
 
-
-              />
-
-              <Card className="bg-dark text-white">
-                <h3> Quinoa</h3>
-                <p>A peruvian organic grain</p>
-              </Card>
 
 
               <img
