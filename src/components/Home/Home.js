@@ -89,7 +89,7 @@ function Home() {
 
 
               <Card>
-                <Image height="350" variant="top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSVztIv2_-Ex4oGD9O7hRGmvLwtBd9CdFzU8hsz2u1__PDxl9Qa&usqp=CAU"  roundedCircle />
+                <Image height="350" variant="top" src="https://cdn.shopify.com/s/files/1/0934/6090/files/non-gmo_large.gif?9751035154982818336"  roundedCircle />
                 <Card.Body>
                   <Card.Text>
                     <Link to="/Recipes">
@@ -104,7 +104,7 @@ function Home() {
 
               </Card>
               <Card>
-                <Image height="350" variant="top" src="https://cdn-a.william-reed.com/var/wrbm_gb_food_pharma/storage/images/publications/food-beverage-nutrition/bakeryandsnacks.com/article/2019/09/26/study-debunks-myth-that-lifestylers-benefit-from-going-gluten-free/10184053-1-eng-GB/Study-debunks-myth-that-lifestylers-benefit-from-going-gluten-free_wrbm_large.jpg" roundedCircle/>
+                <Image height="350" variant="top" src="https://shelleycase.com/wp-content/uploads/2017/01/gluten-free-icon.png" roundedCircle/>
                 <Card.Body>
 
                   <Card.Text>
