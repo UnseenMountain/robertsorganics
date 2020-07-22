@@ -18,11 +18,11 @@ function App() {
 
         <NavBar />
         <Route path="/" exact component={Home2}/> 
-        {/* <Route path="/Home" component={Home}/>
+         <Route path="/Home" component={Home}/>
        
         <Route path="/Blog" component={Blog}/>
         <Route path="/Recipes" component={Recipes}/>
-        <Route path="/Store" component={Store}/> */}
+        <Route path="/Store" component={Store}/> 
       
         <Footer />
       </div>
