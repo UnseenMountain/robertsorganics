@@ -8,7 +8,7 @@ function Home() {
              <img
                     
                     className="mr-3"
-                    src="./THERMALSCAN.jpg"
+                    src="./components/Home/THERMALSCAN.jpg"
                     alt="Generic placeholder"
                   />
  <Container>
@@ -18,7 +18,7 @@ function Home() {
 
             <h3>Installation:
            <li> Can be Wall mounted with screws (included), double-sided tape (included), or on a (tripod NOT Included)</li>
-                <li> • Cost-effective and Lower cost than thermal cameras</li>
+                <li>  Cost-effective and Lower cost than thermal cameras</li>
                 <li>  Highly accurate</li>
                 <li>
                     Quick and easy to install
