@@ -17,7 +17,7 @@ function App() {
       <div>
 
         {/* <NavBar /> */}
-        <Route path="/" exact component={Home2}/> 
+        <Route path="/" exact component={Home}/> 
          <Route path="/organics" component={organics}/>
        
         <Route path="/Blog" component={Blog}/>
