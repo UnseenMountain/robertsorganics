@@ -7,8 +7,8 @@ function Home() {
 
         <div>
             <Row xs={1} md={2}>
-                <Col> <Image height="500" width="500" src="https://images-na.ssl-images-amazon.com/images/I/514aUmfH%2BKL._SL1000_.jpg" roundedCircle /></Col>
-                <Col> <Image height="500" width="500" src="https://tiimg.tistatic.com/fp/1/006/407/wall-mount-medical-infrared-thermometer-351.jpg" roundedCircle /></Col>
+                <Col> <Image height="500" width="500" src="https://images-na.ssl-images-amazon.com/images/I/514aUmfH%2BKL._SL1000_.jpg"  /></Col>
+                <Col> <Image height="500" width="500" src="https://tiimg.tistatic.com/fp/1/006/407/wall-mount-medical-infrared-thermometer-351.jpg" /></Col>
             </Row>
             <Container>
             <Col xs={6}>
