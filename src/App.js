@@ -8,7 +8,7 @@ import Blog from "./components/Blog/Blog"
 import Recipes from "./components/Recipes/Recipes"
 import Store from "./components/Store/Store"
 import Footer from "./components/Footer/Footer.js"
-import Home2 from "./components/Home/Home"
+import Home from "./components/Home/Home"
 
 
 function App() {
