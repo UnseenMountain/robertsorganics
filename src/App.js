@@ -16,7 +16,7 @@ function App() {
     <Router>
       <div>
 
-        <NavBar />
+        {/* <NavBar /> */}
         <Route path="/" exact component={Home2}/> 
          <Route path="/organics" component={organics}/>
        

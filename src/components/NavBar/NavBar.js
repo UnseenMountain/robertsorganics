@@ -13,7 +13,7 @@ function NavBar(props) {
   return (
 
     <Navbar collapseOnSelect expand="lg" bg="light" variant="light"  >
-      <Navbar.Brand href="/organics">Robert's Organics</Navbar.Brand>
+      <Navbar.Brand href="/organics">Thermalscan20</Navbar.Brand>
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
       <Navbar.Collapse id="responsive-navbar-nav">
 
