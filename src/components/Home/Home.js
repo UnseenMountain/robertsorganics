@@ -19,7 +19,7 @@ function Home() {
 
                     <Card.Body>
                         <Card.Text>
-                            <div className="card">
+                            <div >
 
                                 <h1>The Thermalscan20  ThermalScan scans the forehead and alerts by alarm if an elevated skin temperature is
                                 detected. An excellent way to provide temperature screening at your
