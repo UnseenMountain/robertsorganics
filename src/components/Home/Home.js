@@ -6,14 +6,12 @@ function Home() {
     return (
 
         <div>
-            <Row xs={1} md={2}>
-                <Col> <Image height="500" width="500" src="https://images-na.ssl-images-amazon.com/images/I/514aUmfH%2BKL._SL1000_.jpg"  /></Col>
-                <Col> <Image height="500" width="500" src="https://tiimg.tistatic.com/fp/1/006/407/wall-mount-medical-infrared-thermometer-351.jpg" /></Col>
-            </Row>
+          
             <Container>
-            <Col xs={6}>
-                <Image height="500" width="1000" src="https://m.media-amazon.com/images/S/aplus-media/sc/ec1d7bf2-f177-464b-891b-2949583bfc23.__CR0,0,970,600_PT0_SX970_V1___.jpg" />
-            </Col>
+                <Col> <Image  src="https://sc01.alicdn.com/kf/He7f1211b7f51473fa745423a45a58387G.jpg"  /></Col>
+                <Col> <Image  src="https://sc01.alicdn.com/kf/Hdaab05a03dd145ac8100a3402f84995cK.jpg" /></Col>
+            
+            
 
                 <Card>
 
@@ -26,6 +24,7 @@ function Home() {
         place of business.</h1>
                             </div>
                             <br></br>
+                            <Image  src="https://sc01.alicdn.com/kf/Hc75bfb50682545afbc5498b583aa151eh.jpg" />
                             <h3>Installation:
            <li> Can be Wall mounted with screws (included), double-sided tape (included), or on a (tripod NOT Included)</li>
                                 <li> • Cost-effective and Lower cost than thermal cameras</li>
@@ -57,6 +56,7 @@ function Home() {
                             <h3>
                                 <div classname="colors">
                                     <br></br>
+                                     <Col> <Image  src="https://sc01.alicdn.com/kf/Hf01804f47cd843fab38c6d31dd1b2324S.jpg"  /></Col>
                 Key Features:
             </div>
 
@@ -68,6 +68,7 @@ function Home() {
                             <h3>
                                 <div classname="colors">
                                     <br></br>
+                                    <Col> <Image  src="https://sc01.alicdn.com/kf/H754bc8ed1de5449bb6b8febdbb742594W.jpg"  /></Col>
                 Specifications:
 </div>
                                 <li>Temperature Measurement Distance: 2" - 4" (5 - 10 cm) Operating Humidity 95%, non-condensing</li>

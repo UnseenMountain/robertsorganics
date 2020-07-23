@@ -11,12 +11,10 @@ function Footer() {
                 <div className="color">
                     <Card.Body>
 
-                        <Card.Title>Roberts Organics</Card.Title>
+                        <Card.Title>Thermalscan20</Card.Title>
                         
                         <Row>
                             <Col>Contact us
-                                
-                                <h6>robert@organics.com</h6>
                                 <h6>Phone Number: 805-296-9158</h6>
                                 <h6>Templeton CA 93465</h6>
 
