@@ -1,22 +1,24 @@
 import React from 'react';
 import { useState } from "react"
-import { Navbar, Nav, Form, Button, Container } from "react-bootstrap"
-import Modal from 'react-bootstrap/Modal'
-import { Link } from "react-router-dom"
+import { Navbar, Nav, Form, Container } from "react-bootstrap"
+// import Modal from 'react-bootstrap/Modal'
+// import { Link } from "react-router-dom"
 import "./style.css"
 
 function NavBar(props) {
-  const [show, setShow] = useState(false);
+  // const [show, setShow] = useState(false);
 
-  const handleClose = () => setShow(false);
-  const handleShow = () => setShow(true);
+  // const handleClose = () => setShow(false);
+  // const handleShow = () => setShow(true);
   return (
-      <Container>
-
+     
     <Navbar collapseOnSelect expand="lg" bg="light" variant="light"  >
+        <div className="colorss">
       <Navbar.Brand href="/organics"><h1>Thermalscan20</h1></Navbar.Brand>
+        </div>
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
       <Navbar.Collapse id="responsive-navbar-nav">
+          
 
         <Nav className="mr-auto">
         </Nav>
@@ -26,6 +28,8 @@ function NavBar(props) {
 
         <Form inline>
           <div className="links">
+          <div className="colorsss">
+<h1>
             <Navbar.Brand className="space" href="/"> Home </Navbar.Brand>
             <Navbar.Brand className="space" href="/Store"> Store </Navbar.Brand>
             <Navbar.Brand className="space"  href="/Blog">  Blog  </Navbar.Brand>
@@ -34,6 +38,8 @@ function NavBar(props) {
 
 
         <Navbar.Brand className="space" href="/cart">My cart</Navbar.Brand>
+</h1>
+          </div>
           </div>
 
           {/* <Button variant="primary" onClick={handleShow}>
@@ -73,7 +79,7 @@ function NavBar(props) {
       </Navbar.Collapse>
 
     </Navbar>
-            </Container>
+            
 
   )
 }
